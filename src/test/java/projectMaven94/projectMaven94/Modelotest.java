@@ -16,6 +16,8 @@ public class Modelotest {
 		ctrl.Test4();
 		ctrl.test5();
 	}
+	
+	@org.junit.Test
 	public void test() {
 		Modelo modelo = new Modelo();
 		assertEquals(modelo.getMensaje(),"Hola! ");
