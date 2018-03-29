@@ -1,4 +1,4 @@
-package projectMaven94.projectMaven94;
+package org.test;
 
 import static org.junit.Assert.assertEquals;
 import modelo.Modelo;
