@@ -26,6 +26,8 @@
     <version>2.2.3</version>
 </dependency>
    </dependencies>
+<build>
+<plugins>
    <plugin>
                 			<groupId>org.eluder.coveralls</groupId>
                				 <artifactId>coveralls-maven-plugin</artifactId>
