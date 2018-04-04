@@ -12,6 +12,14 @@
       <maven.compiler.source>1.8</maven.compiler.source>
       <maven.compiler.target>1.8</maven.compiler.target>
    </properties>
+	<sourceDirectory>src/main</sourceDirectory>
+    <testSourceDirectory>src/test</testSourceDirectory>
+    <resources>
+        <resource>
+            <directory>src/resource</directory>
+        </resource>
+    </resources>
+	<configuration><repoToken>yourToken</repoToken></configuration>
    <build>
 		<plugins>
 			<plugin>
